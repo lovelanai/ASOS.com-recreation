@@ -1,0 +1,49 @@
+/* Detta är footern högst upp, klasserna heter third för att jag först gjorde
+nerifrån och upp i början.*/
+
+.third-footer {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: futura;
+}
+
+
+/* Social links */
+
+.socials-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.socials-footer li {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+/* Payment links */
+
+.payment {
+    display: flex;
+    align-items: center;
+}
+.payment img {
+    width: 2rem;
+    height: 20px;
+}
+
+@media screen and (max-width: 794px){
+.third-footer{
+    display: none;
+}
+}

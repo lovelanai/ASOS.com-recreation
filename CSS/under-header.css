@@ -1,0 +1,136 @@
+.sales-container {
+    text-align: center;
+    background: transparent;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto 48px auto;
+    padding: 0 32px;
+}
+
+.salesbanner {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    padding: 10px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.salesbanner-background {
+    width: 100%;
+    background-image: url(https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/06-june/summer-promo-pack/homepages/6-2-buildup-hpdesk.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.salesbanner-header {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.salesbanner-headerwrap {
+    display: block;
+}
+
+.salesbanner-headertext {
+    line-height: calc(1.5em + 4px);
+    padding: 4px 0;
+}
+
+.salesbanner-headertitle {
+    font-size: 33px;
+    color: #fff;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 2.8px;
+    margin: auto;
+}
+
+.salesbanner-tape {
+    color: #5611FF;
+    background-color: #EEFEFF;
+    box-shadow: 0.37em 0 0 #eefeff, -0.37em 0 0 #eefeff;
+}
+
+.salesbanner-underwrap-desktop {
+    display: block;
+    padding: 0 66px;
+}
+
+.salesbanner-underwrap-mobile {
+    display: none;
+    padding: 0 66px;
+    line-height: 12px;
+    overflow: hidden;
+    max-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.salesbanner-underwrap-tape {
+    color: #5611FF;
+    background-color: #EEFEFF;
+    box-shadow: 10px 0 0 #eefeff, -10px 0 0 #eefeff, 10px 0 0 #eefeff, -10px 0 0 #eefeff, 10px 0 0 #eefeff, -10px 0 0 #eefeff, 10px 0 0 #eefeff, -10px 0 0 #eefeff;
+    font-size: 12px;
+    line-height: calc(1.5em + 1px);
+    box-sizing: border-box;
+    display: inline;
+    z-index: 4;
+    width: 400px;
+}
+
+@media (max-width: 768px) {
+    .salesbanner-underwrap-desktop {
+        display: none;
+        padding: 0 66px;
+    }
+    .salesbanner-underwrap-mobile {
+        display: block;
+        padding: 0 66px;
+    }
+    .salesbanner-headertitle {
+        line-height: calc(1.5em + 8px);
+        font-size: 26px;
+        letter-spacing: 2.8px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:734px) {
+
+    .sales-container{
+        margin: 0;
+    }
+
+
+
+
+    .salesbanner-background {
+        background-image: url(https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/06-june/summer-promo-pack/homepages/6-2-buildup-hpmob.jpg);
+    }
+}
+
+
+
+@media screen and (max-width:340px){
+
+    .salesbanner-background{
+        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/96099157749594238/7EA2737771739CB625F964E0BE4012F39E2AD882/?imw=450&impolicy=Letterbox) 
+}
+}

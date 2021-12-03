@@ -1,0 +1,69 @@
+/* Detta är footern längst ned, klasserna heter bara footer för att jag först gjorde
+nerifrån och upp*/
+
+footer {
+    width: 100%;
+
+}
+
+
+.footer-bottom {
+    background-color: #DDDDDD;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: .75rem;
+    color: #666;
+}
+
+.footer-info {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;    
+}
+
+
+.footer-more {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-more li {
+    padding-right: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+.copyright {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.copyright p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 794px){
+    .remove-width {
+        display: none;
+    }
+}
+ @media screen and (min-width: 405px) {
+     .only-show-405-width {
+         display: none;
+
+     }
+     
+ }
+
+@media screen and (max-width: 406px) {
+    .remove-width-2 {
+        display: none;
+    }
+}
+
