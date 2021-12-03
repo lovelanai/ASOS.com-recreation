@@ -14,6 +14,10 @@ Vi undvek också att göra hemsidan interaktiv då detta inte var en del av uppg
 ***
 Vänligen tryck på logotyp för att aktivera sidans fullständiga funktion.
 ***
+
+## Demo link
+[DEMO](https://lovelanai.github.io/ASOS.com-remake/)
+
 ## Licensing
 
 Alla bilder och logotyper tillhör ASOS. Vi har ej rättigheter till dessa bilder och använder dem endast i utbildningssyfte.
