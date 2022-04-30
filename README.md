@@ -16,7 +16,7 @@ Vänligen tryck på logotyp för att aktivera sidans fullständiga funktion.
 ***
 
 ## Demo link
-[DEMO](https://lovelanai.github.io/ASOS.com-remake/)
+[DEMO](https://lovelanai.github.io/ASOS.com-recreation/)
 
 ## Licensing
 
